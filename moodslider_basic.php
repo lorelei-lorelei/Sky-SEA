@@ -1,13 +1,17 @@
 <!DOCTYPE HTML>
  <meta charset="utf-8">
 
-<header>
+ <head>
+<link rel="stylesheet" type="text/css" href="style.css">
   <title>Moodslider - Sky Cinema</title>
-</header>
+</head>
 <body>
-  <h1>Moodslider - Sky Cinema</h1>
-  <img src="images/sky_cinema_logo.png" align=left>
-  <textarea rows="2" cols="50">
+  <div class="header">
+    <h1>Moodslider - Sky Cinema</h1>
+    <img src="images/sky_cinema_logo.png" align=left />
+  </div>
+
+  <div class="body"><textarea rows="2" cols="50">
     Moodslider|Upload
   </textarea>
 
@@ -71,4 +75,5 @@
     <input type="text" name="nocontent" placeholder="no content"><br>
     <input type="submit" value="no content"><br>
   </form>
+</div>
 </body>
