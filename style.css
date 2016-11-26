@@ -1,16 +1,18 @@
 .header img {
-  float: left;
-  width: 200px;
-  height: auto;
-}
-.header h1 {
-  postion: relative;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  color: black;
+    float: left;
+    width: 200px;
+    height: auto;
 }
 
-textarea {
-  width: 500px;
-  height: auto;
+.header h1 {
+    postion: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+.upload textarea {
+    margin: 10px;
+    width: 500px;
+    height: auto;
 }
