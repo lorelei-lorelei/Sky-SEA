@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <programmeList>
+ <programme id="1">
+ <name>The Dark Knight</name>
+ <image>images/the-dark-knight.jpg</image>
+ <mood>Calm</mood>
+ </programme>
+ <programme id="2">
+ <name>The Departed</name>
+ <image>images/the-departed.jpg</image>
+ <mood>Calm</mood>
+ </programme>
+ <programme id="3">
+ <name>Up</name>
+ <image>images/up.jpg</image>
+ <mood>Agitated</mood>
+ </programme>
+ <programme id="4">
+ <name>The Lego Movie</name>
+ <image>images/lego-movie.jpg</image>
+ <mood>Agitated</mood>
+ </programme>
+ <programme id="5">
+ <name>Notting Hill</name>
+ <image>images/Notting Hill.jpg</image>
+ <mood>Happy</mood>
+ </programme>
+ <programme id="6">
+ <name>Slumdog Millionaire</name>
+ <image>images/slumdog-millionaire.jpg</image>
+ <mood>Happy</mood>
+ </programme>
+ <programme id="7">
+ <name>There's Something About Mary</name>
+ <image>images/about-mary.jpg</image>
+ <mood>Sad</mood>
+ </programme>
+ <programme id="8">
+ <name>Hot Fuzz</name>
+ <image>images/hot-fuzz.jpg</image>
+ <mood>Sad</mood>
+ </programme>
+ <programme id="9">
+ <name>Team America</name>
+ <image>images/team-america.jpg</image>
+ <mood>Tired</mood>
+ </programme>
+ <programme id="10">
+ <name>Zoolander</name>
+ <image>images/zoolander.jpg</image>
+ <mood>Tired</mood>
+ </programme>
+ <programme id="11">
+ <name>The Seventh Seal</name>
+ <image>images/the-seventh-seal.jpg</image>
+ <mood>Awake</mood>
+</programme>
+ <programme id="12">
+ <name>Amelie</name>
+ <image>images/amelie.jpg</image>
+ <mood>Awake</mood>
+ </programme>
+ <programme id="13">
+ <name>The Incredibles</name>
+ <image>images/the-incredibles.jpg</image>
+ <mood>Scared</mood>
+ </programme>
+ <programme id="14">
+ <name>Wall-E</name>
+ <image>images/wall-e.jpg</image>
+ <mood>Scared</mood>
+ </programme>
+ <programme id="15">
+ <name>Silence of the Lambs</name>
+ <image>images/silence-of-the-lambs.jpg</image>
+ <mood>Fearless</mood>
+ </programme>
+ <programme id="16">
+ <name>The Texas Chainsaw Massacre</name>
+ <image>images/texas-chainsaw-massacre.jpg</image>
+ <mood>Fearless</mood>
+ </programme>
+</programmeList>
