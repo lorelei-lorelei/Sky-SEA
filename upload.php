@@ -8,7 +8,7 @@
 </form>
 
 <?php
-$filename = ($_FILES[""]);
+if($filename = isset($_FILES->name)){
 echo $filename;
-
+}
 ?>
