@@ -24,48 +24,30 @@
   <div class="slider">
     <span id="range">Agitated</span>
     <label for="agitated_calm"></label>
-      <input type="range" min="0" max="50" value="0" step="5" onchange="showValue(this.value)" />
+      <input type="range" min="0" max="50" value="0" step="5" />
     <span id="range">Calm</span>
-    
 
   <br>
 
     <span id="range">Happy</span>
     <label for="happy_sad"></label>
-     <input type="range" min="0" max="50" value="0"step="5" onchange="showValue(this.value)" />
+     <input type="range" min="0" max="50" value="0"step="5" />
     <span id="range">Sad</span>
-      <script type="text/javascript">
-        function showValue(newValue)
-       {
-         document.getElementById("range").innerHTML=newValue;
-       }
-     </script>
 
   <br>
 
   <span id="range">Tired</span>
   <label for="tired_awake"></label>
-    <input type="range" min="0" max="50" value="0"step="5" onchange="showValue(this.value)" />
+    <input type="range" min="0" max="50" value="0"step="5" />
   <span id="range">Wide Awake</span>
-    <script type="text/javascript">
-      function showValue(newValue)
-      {
-        document.getElementById("range").innerHTML=newValue;
-      }
-    </script>
 
   <br>
 
   <span id="range">Scared</span>
   <label for="scared_brave"></label>
-    <input type="range" min="0" max="50" value="0"step="5" onchange="showValue(this.value)" />
+    <input type="range" min="0" max="50" value="0"step="5"/>
   <span id="range">Fearless</span>
-    <script type="text/javascript">
-      function showValue(newValue)
-      {
-        document.getElementById("range").innerHTML=newValue;
-      }
-    </script>
+  
     <button type="submit">Submit</button>
   </form>
  </div>
