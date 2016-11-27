@@ -6,6 +6,9 @@ $xml = simplexml_load_file('filmchoice.xml');
     echo ($film->title);
     array_push($filmsArray, $film);
   }
+
+//print_r($filmsArray);//
+
 class Film {
   var $title;
   var $mood;
@@ -23,11 +26,6 @@ class Film {
   }
 }
 
-$agitatedfilm = new Film();
-$agitatedfilm->id = '3'
-
-$agitatedfilm = new Film();
-$agitatedfilm->id = '4'
 
 
  ?>
