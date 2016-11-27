@@ -50,18 +50,54 @@ include 'moodchoice_functions.php';
   </form>
  </div>
 
- <ul class="films" >
-    <li><img id="7" class="films" src="images/about-mary.jpg" width="100" height="120" padding=10px/><br>
+<ul class="films">
+  <?php if(isset($_GET['ag_calm']) && ($_GET['ag_calm']<25)){
+    $suggestedfilms = film_suggest("Agitated", 'ag_calm');
+    foreach ($suggestedfilms as $showfilm){?><li><img src=<?php echo $showfilm->image; ?> width="100" height="120" padding=15px/><br>
+  <label><?php echo $showfilm->title; ?></label></li><?php } }
+    elseif(isset($_GET['ag_calm'])){
+    $suggestedfilms = film_suggest("Calm", 'ag_calm');
+     foreach ($suggestedfilms as $showfilm){?><li><img src=<?php echo $showfilm->image; ?> width="100" height="120" padding=15px/><br>
+   <label><?php echo $showfilm->title; ?></label></li><?php } } ?>
+   <?php if(isset($_GET['happy_sad']) && ($_GET['happy_sad']<25)){
+     $suggestedfilms = film_suggest("Happy", 'happy_sad');
+     foreach ($suggestedfilms as $showfilm){?><li><img src=<?php echo $showfilm->image; ?> width="100" height="120" padding=15px/><br>
+   <label><?php echo $showfilm->title; ?></label></li><?php } }
+    elseif(isset($_GET['happy_sad'])){
+     $suggestedfilms = film_suggest("Sad", 'happy_sad');
+     foreach ($suggestedfilms as $showfilm){?><li><img src=<?php echo $showfilm->image; ?> width="100" height="120" padding=15px/><br>
+   <label><?php echo $showfilm->title; ?></label></li><?php } } ?>
+   <?php if(isset($_GET['tired_awake']) && ($_GET['tired_awake']<25)){
+     $suggestedfilms = film_suggest("Tired", 'tired_awake');
+     foreach ($suggestedfilms as $showfilm){?><li><img src=<?php echo $showfilm->image; ?> width="100" height="120" padding=15px/><br>
+   <label><?php echo $showfilm->title; ?></label></li><?php } }
+    elseif(isset($_GET['tired_awake'])){
+     $suggestedfilms = film_suggest("Awake", 'tired_awake');
+     foreach ($suggestedfilms as $showfilm){?><li><img src=<?php echo $showfilm->image; ?> width="100" height="120" padding=10px/><br>
+   <label><?php echo $showfilm->title; ?></label></li><?php } } ?>
+   <?php if(isset($_GET['scared_brave']) && ($_GET['scared_brave']<25)){
+     $suggestedfilms = film_suggest("Scared", 'scared_brave');
+     foreach ($suggestedfilms as $showfilm){?><li><img src=<?php echo $showfilm->image; ?> width="100" height="120" padding=10px/><br>
+   <label><?php echo $showfilm->title; ?></label></li><?php } }
+    elseif(isset($_GET['scared_brave'])){
+     $suggestedfilms = film_suggest("Fearless", 'scared_brave');
+     foreach ($suggestedfilms as $showfilm){?><li><img src=<?php echo $showfilm->image; ?> width="100" height="120" padding=10px/><br>
+   <label><?php echo $showfilm->title; ?></label></li><?php } } ?>
+</ul>
+
+<ul class="films" >
+    <li><img id="7" class="films" src="images/about-mary.jpg" width="100" height="120" padding=15px/><br>
       <label> No content </label></li>
-    <li><img id="2" src="images/the-departed.jpg" width="100" height="120"/><br>
+    <li><img id="2" src="images/the-departed.jpg" width="100" height="120" padding=15px/><br>
       <label> No content </label></li>
-    <li><img id="9" src="images/team-america.jpg" width="100" height="120"/><br>
+    <li><img id="9" src="images/team-america.jpg" width="100" height="120" padding=15px/><br>
       <label> No content </label></li>
-    <li><img id="5" src="images/notting-hill.jpg" width="100" height="120"/><br>
+    <li><img id="5" src="images/notting-hill.jpg" width="100" height="120" padding=15px/><br>
       <label> No content </label></li>
-    <li><img id="12" src="images/amelie.jpg" width="100" height="120"/><br>
+    <li><img id="12" src="images/amelie.jpg" width="100" height="120" padding=15px/><br>
       <label> No content </label></li>
 </ul>
+
 
 
 </body>
