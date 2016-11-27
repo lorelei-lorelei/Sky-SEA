@@ -1,6 +1,6 @@
 <?php
 $filmsArray = [];
-$xml = simplexml_load_file( 'films.xml');
+$xml = simplexml_load_file('filmchoice.xml');
   foreach ($xml as $film) {
     $film = new Film($film->name, $film->mood, $film->id, $film->image);
     echo ($film->title);
@@ -22,4 +22,12 @@ class Film {
     return $this->image;
   }
 }
+
+$agitatedfilm = new Film();
+$agitatedfilm->id = '3'
+
+$agitatedfilm = new Film();
+$agitatedfilm->id = '4'
+
+
  ?>
