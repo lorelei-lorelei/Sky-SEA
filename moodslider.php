@@ -1,3 +1,8 @@
+<?php
+
+include 'moodchoice_functions.php';
+?>
+
 <!DOCTYPE HTML>
  <meta charset="utf-8">
  <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -23,49 +28,43 @@
   <form action="">
   <div class="slider">
     <span id="range">Agitated</span>
-    <label for="agitated_calm"></label>
-      <input type="range" min="0" max="50" value="0" step="5" />
+      <input name="ag_calm" type="range" min="0" max="50" value="0" step="5" />
     <span id="range">Calm</span>
 
   <br>
 
     <span id="range">Happy</span>
-    <label for="happy_sad"></label>
-     <input type="range" min="0" max="50" value="0"step="5" />
+     <input name="happy_sad" type="range" min="0" max="50" value="0"step="5" />
     <span id="range">Sad</span>
 
   <br>
 
   <span id="range">Tired</span>
-  <label for="tired_awake"></label>
-    <input type="range" min="0" max="50" value="0"step="5" />
+    <input name="tired_awake" type="range" min="0" max="50" value="0"step="5" />
   <span id="range">Wide Awake</span>
 
   <br>
 
   <span id="range">Scared</span>
-  <label for="scared_brave"></label>
-    <input type="range" min="0" max="50" value="0"step="5"/>
+    <input name="scared_brave" type="range" min="0" max="50" value="0"step="5"/>
   <span id="range">Fearless</span>
-  
+
     <button type="submit">Submit</button>
   </form>
  </div>
 
-   <br>
-  <div class="result">
-     <form action="">
-      <input type="text" name="nocontent" placeholder="no content"><br>
-      <input type="submit" value="no content"><br>
-      <input type="text" name="nocontent" placeholder="no content"><br>
-      <input type="submit" value="no content"><br>
-      <input type="text" name="nocontent" placeholder="no content"><br>
-      <input type="submit" value="no content"><br>
-      <input type="text" name="nocontent" placeholder="no content"><br>
-      <input type="submit" value="no content"><br>
-      <input type="text" name="nocontent" placeholder="no content"><br>
-      <input type="submit" value="no content"><br>
-    </form>
-  </div>
+ <ul class="films" >
+    <li><img id="7" class="films" src="images/about-mary.jpg" width="100" height="120" padding=10px/><br>
+      <label> No content </label></li>
+    <li><img id="2" src="images/the-departed.jpg" width="100" height="120"/><br>
+      <label> No content </label></li>
+    <li><img id="9" src="images/team-america.jpg" width="100" height="120"/><br>
+      <label> No content </label></li>
+    <li><img id="5" src="images/notting-hill.jpg" width="100" height="120"/><br>
+      <label> No content </label></li>
+    <li><img id="12" src="images/amelie.jpg" width="100" height="120"/><br>
+      <label> No content </label></li>
+</ul>
 
+   <br>
 </body>
