@@ -16,16 +16,13 @@ include 'moodchoice_functions.php';
     <h1>Moodslider - Sky Cinema</h1>
   </div>
 
-  <ul class="navbar" id="moodslidenave">
- <li><a href="#Moodslider">Moodslider</a></li>
- <li><a href="#Upload">Upload</a></li>
- <li class="icon">
-   <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
- </li>
+<ul class="navbar" id="moodslidenave">
+  <li><a href="moodslider.php">Moodslider</a></li>
+  <li><a href="upload.php">Upload</a></li>
 </ul>
 
   <br>
-  <form action="">
+  <form action="" method="get">
   <div class="slider">
     <span id="range">Agitated</span>
       <input name="ag_calm" type="range" min="0" max="50" value="0" step="5" />
@@ -66,5 +63,5 @@ include 'moodchoice_functions.php';
       <label> No content </label></li>
 </ul>
 
-   <br>
+
 </body>
