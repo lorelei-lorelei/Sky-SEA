@@ -7,8 +7,6 @@ $xml = simplexml_load_file('filmchoice.xml');
     array_push($filmsArray, $film);
   }
 
-//print_r($filmsArray);//
-
 class Film {
   var $title;
   var $mood;
